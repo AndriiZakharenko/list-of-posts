@@ -1,14 +1,29 @@
-# React + Redux list of posts
+# List of Posts
+
+### Description
+
+- Implemented Lists of Posts using external API
+
+### Stack
+
+- HTML (BEM)
+- CSS (Bulma)
+- JS
+- Typescript
+- React
+- ReactDOM
+- React Redux
+- Fetch
 
 
-Implemented it with Redux having the next slice:
-- `users` and remove `UsersContext`;
-- `author` that is currently in the `App`;
-- `posts` having 3 props `loaded`, `hasError` and `items`;
-- `selectedPost`;
-- `comments` with `loaded`, `hasError` and `items` props (keep the `visible` in the `PostDetails`);
-- `NewCommentForm` should keep its state.
+### Tools
 
-## Demo Links
+- ESlint
+- Prettier
+- Cypress
+- Mochawesome
+- Babel
 
-- [DEMO LINK](https://AndriiZakharenko.github.io/react_redux-list-of-posts/)
+### Demo links
+
+- [Demo](https://AndriiZakharenko.github.io/list-of-posts/)
